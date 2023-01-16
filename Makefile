@@ -6,7 +6,7 @@
 #    By: jgermany <nyaritakunai@outlook.com>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/30 13:02:44 by jgermany          #+#    #+#              #
-#    Updated: 2023/01/15 16:52:35 by jgermany         ###   ########.fr        #
+#    Updated: 2023/01/16 13:31:50 by jgermany         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,11 +14,11 @@ NAME						= test_gnl.out
 NAME_B						= test_gnl_bonus.out
 
 ROOT						= ..
-TSDIR						= $(ROOT)/tests
+TSDIR						= .
 CASDIR						= $(TSDIR)/testcases
 
 CC							= cc
-CCFL						= -Wall -Wextra -Werror
+CCFL						= -Wall -Wextra -Werror -g3
 MCRFL						= -D BUFFER_SIZE=${SIZE}
 GIFL						= -I$(ROOT)
 TIFL						= -I$(TSDIR)/includes
