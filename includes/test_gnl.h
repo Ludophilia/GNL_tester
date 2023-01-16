@@ -6,7 +6,7 @@
 /*   By: jgermany <nyaritakunai@outlook.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 13:04:39 by jgermany          #+#    #+#             */
-/*   Updated: 2023/01/10 16:42:40 by jgermany         ###   ########.fr       */
+/*   Updated: 2023/01/16 13:29:16 by jgermany         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 #include <assert.h>
 #include <string.h>
 #include <unistd.h>
+#include <fcntl.h>
 
 char	*format_expect(char *expect);
 void	test_line(int fd, char *expect);
